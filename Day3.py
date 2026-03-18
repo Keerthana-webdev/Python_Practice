@@ -5,6 +5,17 @@ if (age>=18):
 else:
     print("cannot vote")
 
+#Traffic Lights Code
+light = input("light: ")
+if(light== "red"):
+    print("stop")
+elif(light== "yellow"):
+    print("look")
+elif(light=="green"):
+    print("go")
+else:
+    print("light is broken")
+
 #Grades of the Students
 marks = int(input("Enter student marks: "))
 if(marks >= 90):
@@ -51,7 +62,7 @@ else:
 x= int(input("enter number:"))
 
 if(x % 7 ==0):
-    print("Multiple of5")
+    print("Multiple of 7")
 else:
     print("Not a multiple")
     
