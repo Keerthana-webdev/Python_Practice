@@ -65,4 +65,35 @@ if(x % 7 ==0):
     print("Multiple of 7")
 else:
     print("Not a multiple")
-    
+
+#Write a program to ask the user to enter web series of their 3 favorite movies & store them in a list.
+web_series = []
+web_series.append(input("Enter 1st web_serie: "))
+web_series.append(input("Enter 2nd web_serie: "))
+web_series.append(input("Enter 3rd web_serie: "))
+
+print(web_series)
+
+#Write a program to check if a list contains a palindrome of elements.(hint:use copy()method.
+list1 = ["k" , "a" , "r" , "a", "k"]
+
+copy_list1 = list1.copy()
+copy_list1.reverse()
+
+if(copy_list1 == list1):
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
+#Write a program to count the number of students with the "A" grade in the follwing tuple.
+#["C" , "D" , "A" , "A" , "B" , "B" , "A"]
+grade = ["C" , "D" , "A" , "A" , "B" , "B" , "A"]
+print(grade.count("A"))
+
+#Store the above values in a list & sort them from "A" To "D".
+grade = ["C" , "D" , "A" , "A" , "B" , "B" , "A"]
+grade.sort()
+print(grade)
+
+
+
