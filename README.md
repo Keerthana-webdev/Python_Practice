@@ -1,10 +1,3 @@
 ## Python_Practice
 
-
-
-
-
-
-
-#### Author
-Keerthana S
+#### Author-Keerthana S
