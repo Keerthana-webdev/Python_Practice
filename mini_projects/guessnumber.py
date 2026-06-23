@@ -29,7 +29,6 @@ def clue3(guess, secret_number):
             pass
 
 print("This is a number guessing game coded by Keerthana")
-
 secret_number = random.randint(1, 100)
 
 name = input("What is your sweet name?  ").capitalize()
